@@ -1,0 +1,26 @@
+{
+  "name": "simulador-procesos-memoria",
+  "version": "0.1.0",
+  "description": "Biblioteca TypeScript que simula procesos, memoria contigua y planificación Round-Robin (AE2 Paradigmas II + Sistemas Operativos, UCP)",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "@vitest/coverage-v8": "^5.0.3",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  },
+  "type": "module",
+  "types": "dist/src/index.d.ts",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  }
+}
